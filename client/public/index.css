@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --alabaster: #f4f3f0;
+  --ltGray: #f2f2f2;
+  --blue: #1098f7;
+  --charcoal: #242331;
+  --lizard: #ade300;
+  --grass: #13512d;
+  /* new palette */
+  --cornflower: #8ecae6;
+  --sea: #219ebc;
+  --indigo: #023047;
+  --honey: #ffb703;
+  --orange: #fb8500;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.innerWrapper {
+  padding: 2%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.footer {
+  margin-top: 50px;
+}
+
+.furUser {
+  font-size: 34px;
+  font-family: "Roboto", sans-serif;
+  color: var(--blue);
+  font-weight: 100;
+  margin-top: 20px;
+}
+
+.single-post {
+  width: 80%;
+  margin: auto;
+}
+
+.profileHL {
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  color: var(--blue);
+  font-weight: 400;
+  margin: 2%;
+}
+.share {
+  font-size: 34px;
+  font-family: "Roboto", sans-serif;
+  color: var(--blue);
+  font-weight: 100;
+  margin-top: 20px;
+}
