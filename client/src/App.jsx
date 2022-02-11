@@ -22,7 +22,7 @@ const httpLink = createHttpLink({
   uri:
     import.meta.env.NODE_ENV === "development"
       ? "http://localhost:3001/graphql"
-      : "https://furbook-backend.herokuapp.com/graphql",
+      : "https://https://dloot-practice.herokuapp.com/graphql",
 
   // InMemoryCache is a class that implements the Cache interface.
   // The cache is used to cache query results.
