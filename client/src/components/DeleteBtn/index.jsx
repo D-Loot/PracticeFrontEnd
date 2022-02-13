@@ -33,7 +33,7 @@ const DeleteBtn = ({ postId }) => {
           <Button as="div" labelPosition="right">
             <Button onClick={clickedDelete} color="red">
               <i className="fas fa-bone">&nbsp;&nbsp;</i>
-              Treat
+              Delete
             </Button>
           </Button>
         </Link>
