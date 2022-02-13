@@ -18,7 +18,7 @@ const Footer = () => {
             <i className="fas fa-angle-left"></i> Go Back
           </Button>
         )}
-        <p className="footerText">Made by Dan, Ashley, Gabe & Mehalet</p>
+        <p className="footerText">Made by Dan</p>
       </div>
     </footer>
   );

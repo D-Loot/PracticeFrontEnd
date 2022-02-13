@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/furbook_logo_K.svg";
+// import Logo from "../../assets/furbook_logo_K.svg";
 import Auth from "../../utils/auth";
 import "./header.css";
 
@@ -13,10 +13,11 @@ const Header = () => {
     <header className="navHeader">
       <div className="left">
         <div>
-          <Link className="logoLink" to="/">
+          {/* <Link className="logoLink" to="/">
             <img src={Logo} className="logoImg" />
-          </Link>
-          <p className="tagline">A place for your fur babies</p>
+          </Link> */}
+          <h1>TITLE: TO BE CHANGED</h1>
+          <p className="tagline">TO BE CHANGED</p>
         </div>
       </div>
       <div className="right">

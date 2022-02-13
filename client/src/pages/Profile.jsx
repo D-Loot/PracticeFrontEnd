@@ -46,6 +46,7 @@ const Profile = () => {
             showTitle={true}
             showUsername={true}
           />
+          <p className="tagline">TO BE CHANGED</p>
         </div>
         {!userParam && <div className="">{/* <PostForm /> */}</div>}
       </div>
