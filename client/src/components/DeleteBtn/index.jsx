@@ -4,7 +4,7 @@ import { Button } from "semantic-ui-react";
 import { Link, useParams } from "react-router-dom";
 import Auth from "../../utils/auth";
 import { REMOVE_POST } from "../../utils/mutation.js";
-import "./treat.css";
+import "./delete.css";
 
 const DeleteBtn = ({ postId }) => {
   const { username: userParam } = useParams();
