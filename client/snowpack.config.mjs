@@ -28,8 +28,8 @@ export default {
     /* ... */
   },
   env: {
-    CLOUDINARY_CLOUD_NAME: "furbook",
-    CLOUDINARY_BASE_URL: "https://res.cloudinary.com/furbook/image/upload",
-    CLOUDINARY_UPLOAD_PRESET: "furbook",
+    CLOUDINARY_CLOUD_NAME: "AgencyImages",
+    CLOUDINARY_BASE_URL: "https://res.cloudinary.com/AgencyImages/image/upload",
+    CLOUDINARY_UPLOAD_PRESET: "AgencyImages",
   },
 };
