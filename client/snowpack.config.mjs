@@ -28,8 +28,8 @@ export default {
     /* ... */
   },
   env: {
-    CLOUDINARY_CLOUD_NAME: "AgencyImages",
+    CLOUDINARY_CLOUD_NAME: "agencyimages",
     CLOUDINARY_BASE_URL: "https://res.cloudinary.com/AgencyImages/image/upload",
-    CLOUDINARY_UPLOAD_PRESET: "AgencyImages",
+    CLOUDINARY_UPLOAD_PRESET: "agency_images",
   },
 };
