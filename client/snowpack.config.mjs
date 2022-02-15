@@ -29,7 +29,7 @@ export default {
   },
   env: {
     CLOUDINARY_CLOUD_NAME: "dqbaadydi",
-    CLOUDINARY_BASE_URL: "https://res.cloudinary.com/AgencyImages/image/upload",
-    CLOUDINARY_UPLOAD_PRESET: "agency_images",
+    CLOUDINARY_BASE_URL: "https://res.cloudinary.com/dqbaadydi/image/upload",
+    CLOUDINARY_UPLOAD_PRESET: "agencyimages",
   },
 };
