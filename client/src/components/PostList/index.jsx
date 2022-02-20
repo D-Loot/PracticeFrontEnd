@@ -1,5 +1,6 @@
 // import PopImage from "components/PopImage";
 import Treats from "components/Treats";
+import DeleteBtn from "components/DeleteBtn";
 import React from "react";
 import { Link } from "react-router-dom";
 import config from "../../utils/config";
@@ -54,8 +55,13 @@ const PostList = ({ posts, username = true }) => {
                 <button className="ui button olive">Leave a comment</button>
               </Link>
             </div>
-            <div className="treatBtn">
-              <Treats postId={post._id} treatCount={post.treatCount} />
+            <div style={{ display: "flex" }}>
+              <div className="treatBtn">
+                <Treats postId={post._id} treatCount={post.treatCount} />
+              </div>
+              <div className="deleteBtn">
+                <DeleteBtn postId={post._id} user={post.postAuthor} />
+              </div>
             </div>
           </div>
         ))}

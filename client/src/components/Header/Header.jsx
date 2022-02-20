@@ -28,8 +28,8 @@ const Header = () => {
                 {Auth.getProfile().data.username}&rsquo;s profile
               </button>
             </Link>
-            <button className="navBtn" onClick={logout}>
-              <button className="ui inverted button">Logout</button>
+            <button className="navBtn ui inverted button" onClick={logout}>
+              Logout
             </button>
           </>
         ) : (

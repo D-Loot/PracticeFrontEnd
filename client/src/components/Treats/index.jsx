@@ -27,31 +27,23 @@ const TreatBtn = ({ postId, treatCount }) => {
   return (
     <div>
       {Auth.loggedIn() ? (
-        <Link>
-          <Button as="div" labelPosition="right">
-            <Button onClick={clickedTreat} color="orange">
-              <i className="fas fa-bone">&nbsp;&nbsp;</i>
-              Treat
-            </Button>
-            <Label
-              as="a"
-              basic
-              color="orange"
-              pointing="left"
-              name="treatCount"
-            >
-              {treatCount}
-            </Label>
+        <div labelposition="right">
+          <Button onClick={clickedTreat} color="orange">
+            <i className="fas fa-bone">&nbsp;&nbsp;</i>
+            Treat
           </Button>
-        </Link>
+          <Label as="a" basic color="orange" pointing="left" name="treatCount">
+            {treatCount}
+          </Label>
+        </div>
       ) : (
-        <p className="signInText">
+        <div className="signInText">
           <div>
             You need to be logged in to give Treats! Please{" "}
             <Link to="/login">login</Link> or{" "}
             <Link to="/register">signup.</Link>
           </div>
-        </p>
+        </div>
       )}
     </div>
   );
